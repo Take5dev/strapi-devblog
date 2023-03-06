@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "cources_pages",
+  "info": {
+    "singularName": "cources-page",
+    "pluralName": "cources-pages",
+    "displayName": "Cources Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Our Courses"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "pageInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.page-info"
+    },
+    "excludedCourses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::course.course"
+    }
+  }
+}
