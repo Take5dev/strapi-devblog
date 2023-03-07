@@ -19,7 +19,9 @@
     "better-sqlite3": "8.0.1",
     "pg": "^8.10.0",
     "pg-connection-string": "^2.5.0",
-    "strapi-plugin-server-route-permission": "^2.0.2"
+    "strapi-plugin-server-route-permission": "^2.0.2",
+    "strapi-provider-upload-supabase-v4": "^1.0.19",
+    "strapi-provider-upload-yandex-cloud": "^2.0.3"
   },
   "author": {
     "name": "A Strapi developer"
