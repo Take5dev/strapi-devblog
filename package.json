@@ -16,6 +16,8 @@
     "@strapi/strapi": "4.7.0",
     "@take5/strapi-plugin-github-projects": "^1.0.0",
     "better-sqlite3": "8.0.1",
+    "pg": "^8.10.0",
+    "pg-connection-string": "^2.5.0",
     "strapi-plugin-server-route-permission": "^2.0.2"
   },
   "author": {
